@@ -1,0 +1,30 @@
+<head>
+  <title>mousemouse</title>
+</head>
+
+<body>
+  <h1>mousemouse</h1>
+
+  {{> clients}}
+</body>
+
+<template name="clients">
+  <table>
+    {{#each clients}}
+      <tr>
+        <th>
+          {{ _id }}
+        </th>      
+        <td>
+          {{ x }}
+        </td>
+        <td>
+          {{ y }}
+        </td>
+        <td>
+          {{ updatedAt }}
+        </td>
+      </tr>
+    {{/each}}
+  </table>
+</template>

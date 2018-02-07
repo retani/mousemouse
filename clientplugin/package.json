@@ -1,0 +1,16 @@
+{
+  "name": "mousemouse-clientplugin",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/mousemouse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify --standalone mousemouse --debug ./src/mousemouse.js > ./dist/mousemouse.js",
+    "watch": "kicker -l 0.3 -e \"afplay /System/Library/Sounds/Pop.aiff; npm run build; afplay /System/Library/Sounds/Tink.aiff\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ddp-client": "0.1.1"
+  }
+}
