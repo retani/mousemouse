@@ -2,7 +2,7 @@
 
 Quick proof of concept to demonstrate sending mouse movements from one browser to another. Made with meteorjs.
 
-![demo]("info/demo.gif")
+![demo](demo.gif)
 
 ## try
 
