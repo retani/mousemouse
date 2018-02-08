@@ -34,6 +34,7 @@ heroku buildpacks:set https://github.com/AdmitHub/meteor-buildpack-horse.git
 heroku addons:create mongolab:sandbox
 heroku config:set METEOR_APP_DIR=server/
 heroku config:set ROOT_URL=<heroku_url>
+git push heroku
 ````
 
 then edit config in `cllientplugin/src/mousemouse.js` and run `npm run build`
